@@ -11,7 +11,8 @@ export const Header = () => {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><Link to={'/'} > Home</Link></li>
-      <li>
+      <li><Link to={'/todo'} > Todo</Link></li>
+      {/* <li>
         <details>
           <summary>Question</summary>
           <ul className="p-2">
@@ -21,7 +22,7 @@ export const Header = () => {
             <li><Link to={'/todo'} > Question 4</Link></li>
           </ul>
         </details>
-      </li>
+      </li> */}
      
     </ul>
   </div>
